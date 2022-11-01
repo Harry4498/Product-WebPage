@@ -1,0 +1,154 @@
+/* *{
+    background-color: aqua;
+} */
+
+
+.card-item-outer{
+    width: 366px;
+    height: 552px;
+    left: 99px;
+    top: 132px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 14px;
+}
+
+
+.img-preview{
+width: 366px;
+height: 307px;
+left: 99px;
+top: 132px;
+
+/* background: url('./../../assets/phone.png'); */
+border-radius: 10px 10px 0px 0px;
+}
+
+
+.item-title{
+width: 100%;
+height: 62px;
+left: 115px;
+top: 451px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.1px;
+
+color: #000000;
+}
+
+.card-item-stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 19px; */
+    padding: 20px;
+}
+
+.card-item-stats > div{
+    width: 200px;
+}
+
+.card-item-stats > div >p{
+    display: inline;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.1px;
+text-decoration-line: line-through;
+
+color: #444444;
+}
+
+.card-item-stats > div > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    
+    letter-spacing: 0.1px;
+    
+    color: #000000;
+    
+}
+
+.add-button{
+    width: 328px;
+height: 43px;
+left: 117px;
+top: 547px;
+
+background: #23A6F0;
+border-radius: 10px;
+border-style: none;
+color: white;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.1px;
+}
+
+.cards-container{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.card-item-stats .img-span {
+
+    width: 88px;
+    height: 18px;
+    /* background: url('./star.png'); */
+    background-image: url('./../../assets/star.png');
+    background-repeat: repeat-x;
+}
+
+.nav-heading{
+    /* background-color: #23A6F0; */
+    text-align: left;
+    /* padding: 20px; */
+    margin:40px 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+
+.cards-container{
+    margin:40px 80px;
+}
+
+@media only screen and (max-width: 480px) {
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: scroll;
+    }
+    
+.cards-container{
+    margin:0px 0px;
+    width: 100%;
+}
+  }
+  
+  .add-button:focus{
+    background-color:grey;
+  }

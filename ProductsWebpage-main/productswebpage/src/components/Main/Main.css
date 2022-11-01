@@ -1,0 +1,112 @@
+.main-container{
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+ border-radius: 20px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 60px;
+}
+
+
+.m-c-left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left:160px;
+    gap: 5px;
+    
+   
+    
+    
+    
+    /* Inside auto layout */
+    
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.m-c-left-container h5{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.1px;
+
+/* hover-text-color */
+
+color: #2A7CC7;
+
+}
+
+.m-c-left-container h1{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+/* identical to box height, or 138% */
+
+letter-spacing: 0.2px;
+
+/* text-color */
+
+color: #252B42;
+}
+
+.m-c-left-container h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: 0.2px;
+    width:75%;
+    text-align: left;
+    
+    /* second-text-color */
+    
+    color: #737373;
+}
+
+
+.m-c-left-container button {
+    background: #23A6F0;
+    border-radius: 5px;
+    width: 221px;
+height: 62px;
+border-style: none;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* light-text-color */
+
+color: #FFFFFF;
+
+}
+
+
+.m-c-right-container{
+    background: url('./../../assets/Ellipse\ 26.png') no-repeat center;
+    overflow: visible;
+    /* background-image: url('./../../assets/EllipseSmall.png'); */
+}
+
+.main-heading-h1{
+    text-align: left;
+}

@@ -1,0 +1,24 @@
+
+h3{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    gap:15px;
+    padding: 30px 200px;
+}
+
+.fb-svg{
+    margin-left: auto;
+}
+
+.horizontal-row{
+    margin-left: 200px;
+    margin-right:200px;
+    color:grey;
+     
+}

@@ -1,0 +1,28 @@
+.card{
+    width: 366px;
+    height: 472px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* background-color: beige; */
+
+}
+
+
+.card > div{
+    background: url('./../../assets/phone.png');
+    width: 366px;
+    height: 307px;
+}
+
+
+.products-container{
+    display: flex;
+}
+
+.nav-heading{
+    /* background-color: #23A6F0; */
+    text-align: left;
+    /* padding: 20px; */
+    margin:40px 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}

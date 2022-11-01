@@ -1,0 +1,27 @@
+
+/* code{
+    background-color: yellowgreen;
+    font-family: Montserrat, sans-serif;
+    color:#737373;
+} */
+
+
+.footer-bottom-container{
+    font-family: Montserrat, sans-serif;
+    color:#737373;
+    height: 74px;
+    background: #FAFAFA;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    /* position: relative;
+    left:195px; */
+
+
+}
+
+
+.footer-bottom-container p{
+   margin-left: 10vw;
+} 
